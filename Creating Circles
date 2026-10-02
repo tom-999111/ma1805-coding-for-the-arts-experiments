@@ -1,0 +1,11 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(900);
+  circle(111, 99, 111)
+  square(88, 80, 222)
+  triangle(100, 99, 100)
+ 
+}
