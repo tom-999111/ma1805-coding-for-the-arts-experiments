@@ -1,0 +1,79 @@
+function setup() {
+  createCanvas(700, 700);
+
+  //white background
+  background(255);
+
+  //turn off default black outline on shapes
+  noStroke();
+
+  //red rectangle
+  fill(255, 0, 0);
+  rect(125, 100, 50, 100);
+
+  //green quadrilateral
+  fill(0, 255, 0);
+  quad(300, 100, 400, 125, 400, 200, 300, 175);
+
+  //blue square
+  fill(0, 0, 255);
+  square(500, 100, 100);
+
+  
+    //brown circle main
+  fill(149, 69, 53);
+  circle(350, 400, 400);
+  stroke(100,60,50,1000)
+
+  //yellow oval
+  fill(160, 82, 45);
+  ellipse(350, 500, 90, 50);
+
+  //nose
+  fill(27,18,18);
+  circle(350, 400, 60);
+
+  //brown circle eye 1
+  fill(150, 105, 25);
+  circle(270, 330, 100);
+
+   //brown circle eye centre 1
+  fill(72, 60, 50);
+  circle(270, 330, 35);
+
+    //brown circle eye 2
+  fill(150, 105, 25);
+  circle(430, 330, 100);
+
+  //brown circle eye centre 2
+  fill(72, 60, 50);
+  circle(430, 330, 35);
+
+  //ear 1
+  fill(149,69,53)
+  arc(190, 280, 100, 100,HALF_PI,TWO_PI);
+
+    //ear 2
+  fill(149,69,53)
+  arc(500, 270, 100, 100, 280, 800,HALF_PI,TWO_PI);
+
+  //magenta arc--note the use of PI values to set the angles of the arc
+  fill(255, 0, 255);
+  arc(550, 350, 100, 100, HALF_PI, TWO_PI);
+
+  //Purple triangle
+  fill(205, 155, 255);
+  triangle(100, 500, 100, 600, 200, 550); //three pairs of coordinates, one for each corner of the triangle
+
+  //orange line
+  stroke(255, 205, 155);
+  line(100, 499, 3000, 500);
+
+  stroke(100,100,100)
+  line(1000,300,100,HALF_PI)
+
+  //black dot--note use of strokeweight to change the size of the point
+  strokeWeight(3);
+  stroke(0);
+  point(550, 550);
+}
