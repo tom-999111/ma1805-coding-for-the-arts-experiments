@@ -1,0 +1,30 @@
+let i = 0;
+
+// Text obtained from  UK Government website 
+const housingText = "In the UK, Facebook has more than 44 million users. There are more than 14 million UK users who scroll through Twitter’s news feed. LinkedIn gains 2 new users every second. There are nearly 24 million Instagram users in the UK.";
+const textArray = housingText.split(" "); // Convert the text into an an array (list) of words. 
+
+
+function setup(){
+	createCanvas(500, 500); 
+  frameRate(1000); // speed of the sketch 
+}
+
+function draw(){
+  let x = random(width)
+  let y = random(height);
+
+  if (i < textArray.length) { // is i less-than the number of words in the text
+    fill(0);
+    stroke(100);
+    console.log(i);
+    textSize(30);
+    textAlign(CENTER, CENTER);
+    text(textArray[i], x, y); 
+    i++;
+  }else{
+    i=0; // reset the counter
+    background(255); // clear the background 
+  }
+
+}
