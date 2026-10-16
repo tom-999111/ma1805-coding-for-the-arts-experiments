@@ -10,17 +10,17 @@ function draw() {
   // background(255,0,100); 
   
   // Draw a line 
-  let x1 = random (width/2)-50;  
+  let x10 = random (width/2)-50;  
   let y1 = random(height); 
   // let x1 = mouseX; 
   // let x1 = mouseX; 
   let x2 = random(width);
   let y2 = random(height);
-  let color = random(100, 255);
+  let color = random(0,0, 255);
   stroke(color);
-  line(x1, y1, x2, y2); 
-  // fill(255, 255, 255, 20); // Sets transparency 
-  // ellipse(x1, y1, x2, y2); // Random  sized shape 
+  line(x10, y1, x2, y2); 
+  fill(255, 255, 255, 20); // Sets transparency 
+  ellipse(x10, y1, x2, y2); // Random  sized shape 
   
   // Write some text 
   let myText = "lines "+lines; 
