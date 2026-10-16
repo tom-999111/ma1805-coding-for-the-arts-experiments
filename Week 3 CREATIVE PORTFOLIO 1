@@ -1,0 +1,40 @@
+let i = 0;
+
+// Text obtained from Poem Hunter (PoemHunter.com)
+const housingText = "NATURE takes counter measure for all harmful acts of man; NATURAL DISASTERS like **STORMS**, RAINS, **FLOODS** and EARTH QUAKES Due to POLLUTION and climate change are happening ever; Nature by doing so, tries to balance itself for the better! If the wrath of Nature is unbearable and dosages to be less', Human cooperation is necessary to make AIR, WATER and all clean; Unless such measures are taken in time, we have to bear all; This is the simple truth all have to remember and not **IGNORE**! When the time is good, we have to take corrective measures;Otherwise, there won't be time available later to manage **CRISIS**; Every year these things are happening but man forgets soon; That is why Nature's sudden ATTACKS are there to wake up all! Sans sleep we cannot work and do anything worthwhile sure; But if we don't do our natural duties, we have to struggle for sleep!";
+const textArray = housingText.split(" "); // Convert the text into an an array (list) of words. 
+
+
+function setup(){
+	createCanvas(500, 500); 
+  background(9,121,105)
+  frameRate(999); // speed of the sketch 
+}
+
+function draw(){
+  const x = random(width)
+  let y = random(height);
+
+  if (i < textArray.length) { // is i less-than the number of words in the text
+    fill(255,0,0);
+    stroke(100);
+    console.log(i);
+    textSize(20);
+    textAlign(CENTER, CENTER);
+    text(textArray[i], x, y); 
+    i++;
+  }else{
+    i=0; // reset the counter
+    background(0,0,0); // clear the background 
+
+    let bad = 0;
+bad += 1; // bad now equals one 
+bad += 5; // bad equals six 
+bad += 1; // bad equals seven 
+
+    let myNewVAriable = 22;
+const anotherVariable = 100; 
+
+  }
+
+}
