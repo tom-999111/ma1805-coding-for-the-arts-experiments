@@ -6,6 +6,7 @@ function setup() {
 background(100);
 background(0,128,0)
 
+  rect(width/2, height/2, 500,100,200)
 
     ellipse(160, 100, 80, 40);
  ellipse(140, 100, 80, 40); 
@@ -68,7 +69,8 @@ rotate(2)
   rotate(0);
   { fill(255,255,0);
   circle(600,120,199); }
-  
+
+
   
 
   describe('A white circle with black outline in the middle of a gray canvas.');
