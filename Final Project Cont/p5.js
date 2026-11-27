@@ -5,7 +5,7 @@ function setup() {
   
 background(100);
 background(0,128,0)
-  
+
 
     ellipse(160, 100, 80, 40);
  ellipse(140, 100, 80, 40); 
@@ -24,7 +24,7 @@ background(0,128,0)
 rotate(0)
   ellipse(480, 290, 80, 50);
 rotate(2)
-ellipse(460, 250, 80, 50);
+ellipse(460, 270, 80, 50);
 rotate(2)
   ellipse(440, 250, 80, 50);
 rotate(2)
@@ -40,28 +40,28 @@ rotate(2)
   rotate
   ellipse(620, 170, 80, 50);
   rotate(0)
-  fill(255,220,0)
+  
   ellipse(650, 190, 80, 50);
   rotate(2)
-  fill(20,100,200)
+  
   ellipse(680, 200, 80, 50);
   rotate(2)
-  fill(255,180,0)
+
   ellipse(690, 200, 80, 50);
   rotate(2);
-  fill(255,220,0)
+  
   ellipse(700, 200, 80, 50);
   rotate(2);
-  fill(20,100,200)
+
+  ellipse(700, 200, 80, 50);
+  rotate(2)
+  
   ellipse(700, 200, 80, 50);
   rotate(2);
-  fill(100,100,0)
+  
   ellipse(700, 200, 80, 50);
   rotate(2);
-  fill(255,180,0)
-  ellipse(700, 200, 80, 50);
-  rotate(2);
-  fill(255,220,0)
+
   ellipse(700, 200, 80, 50);
   
   ellipse(700, 200, 80, 50);
