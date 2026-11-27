@@ -8,13 +8,6 @@ background(0,128,0)
 
   rect(width/2, height/2, 500,100,200)
 
-    ellipse(160, 100, 80, 40);
- ellipse(140, 100, 80, 40); 
-   ellipse(130, 120, 80, 40);
-   ellipse(90, 140, 80, 40);
-  ellipse(90, 160, 80, 40);
-  ellipse(480, 505, 80, 40);
-  
     ellipse(530, 290, 80, 40); //Top last middle one, rest are at the bottom of screen.
   ellipse(450, 500, 80, 40);
   ellipse(420, 490, 80, 40);
