@@ -9,7 +9,7 @@ background(0,128,0)
   rect(width/2, height/2, 500,100,200)
 
     ellipse(530, 290, 80, 40); //Top last middle one, rest are at the bottom of screen.
-  ellipse(450, 500, 80, 40);
+  ellipse(452, 496, 80, 40);
   ellipse(420, 490, 80, 40);
   rotate(0)
   ellipse(390, 480, 80, 40);
