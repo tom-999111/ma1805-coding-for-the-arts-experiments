@@ -14,3 +14,12 @@ Therefore, I believe my project represents all of these aspects of religion and 
 
 From a technical point of view I have used two shape commands and multiple petals to show the individual rather than bulk presentation, of the rotation that was necessary for the project. Thus, reflecting my time and effort put into the different aspects I wanted to execute.
 
+My Inspiration, Issues I Encountered and Functionality^, Mention Theme, Use Presentation...
+
+Inspiration For My Project:
+-
+
+GITHUB Repository Links Related To My Project:
+-
+
+GITHUB
